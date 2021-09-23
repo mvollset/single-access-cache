@@ -1,17 +1,25 @@
 {
   "name": "single-access-cache",
-  "version": "0.1.0",
-  "description": "Singel locking cache using async/await",
+  "version": "1.0.0",
+  "description": "Single locking cache using async/await",
   "main": "index.js",
   "scripts": {
     "test": "mocha test",
     "coverage": "nyc npm run test"
   },
-  "author": "mvollset@gmail.com",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mvollset/single-access-cache.git"
+  },
+  "author": "Martin Vollset",
+  "license": "MIT",
   "dependencies": {
     
   },
+  "bugs": {
+    "url": "https://github.com/mvollset/single-access-cache#issues"
+  },
+  "homepage": "https://github.com/mvollset/single-access-cache#readme",
   "devDependencies": {
     "chai": "^4.3.4",
     "mocha": "^9.1.1",
