@@ -1,8 +1,8 @@
 {
-  "name": "single-cred",
+  "name": "single-access-cache",
   "version": "0.1.0",
-  "description": "Singelton locking cache using async await",
-  "main": "index.js",
+  "description": "Singel locking cache using async/await",
+  "main": "singleaccesscache.js",
   "scripts": {
     "test": "mocha test",
     "coverage": "nyc npm run test"
